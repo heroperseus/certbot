@@ -16,5 +16,4 @@ RUN echo "30       1       *       *       0       certbot renew >> /root/certbo
 
 VOLUME /etc/letsencrypt /var/lib/letsencrypt /root/certbotlog
 
-#CMD crond -b && /bin/sh
 CMD crond -f
