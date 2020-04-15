@@ -1,5 +1,5 @@
 # certbot
-半自动化的Let's Encrypt证书申请和更新docker，该工具主要是为在Let's Encrypt上申请通配符或者多域名证书。
+半自动化的Let's Encrypt证书申请和更新docker，该工具主要是为在Let's Encrypt上通过LE的官方推荐工具certbot申请通配符或者多域名证书。
 
 以申请通配符域名证书为例：
 
